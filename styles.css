@@ -80,12 +80,12 @@ tr{
 th{
     height: 50px;
     vertical-align: middle;
-    text-align: middle;
+    text-align: center;
     
     background-color: rgb(179, 202, 192);
 }
 td{
-    text-align: middle;
+    text-align: center;
     padding-right: 5px;
     color: rgb(57, 77, 57);
 }
