@@ -105,3 +105,17 @@ footer{
     font-family: Optima, sans-serif;
     color: darkslategray;
 }
+
+
+
+@media screen and (max-width: 700px) {
+    
+    main{
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "h"
+        "n"
+        "a"
+        "f";
+    }
+  }
