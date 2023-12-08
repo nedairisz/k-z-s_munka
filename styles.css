@@ -80,7 +80,7 @@ tr{
 th{
     height: 50px;
     vertical-align: middle;
-    text-align: left;
+    text-align: middle;
     
     background-color: rgb(179, 202, 192);
 }
@@ -115,6 +115,7 @@ footer{
     font-family: Optima, sans-serif;
     color: darkslategray;
 }
+
 
 
 
