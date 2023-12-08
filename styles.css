@@ -4,7 +4,7 @@ body{
 main{
     width: 90%;
     margin: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 30px;
 }
 #wrapper{
@@ -16,8 +16,8 @@ table{
     width: 80%;
     border-collapse: collapse;
     margin: 0 auto 20px auto;
-    background-color: whitesmoke;
-    color: darkslategray;
+    background-color: rgb(104, 128, 104);
+    color: rgb(57, 77, 57);
 }
 caption{
     font-family: Optima, sans-serif;
@@ -32,18 +32,18 @@ tr{
 th{
     height: 50px;
     vertical-align: middle;
-    background-color: lightsteelblue;
+    background-color: rgb(179, 202, 192);
 }
 td{
     text-align: right;
     padding-right: 5px;
-    color: gray;
+    color: rgb(57, 77, 57);
 }
 tr:nth-child(odd){
     background-color: #eee;
 }
 tr:hover{
-    background-color: blanchedalmond;
+    background-color: rgb(214, 201, 193);
 }
 td:nth-child(1), td:nth-child(2){
     color: darkslategray;
@@ -53,4 +53,7 @@ td:nth-child(1), td:nth-child(2){
 }
 td:nth-child(2), th:nth-child(2){
     border-right: 1px solid grey;
+}
+footer{
+    padding-top: 5px;
 }
