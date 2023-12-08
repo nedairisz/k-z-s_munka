@@ -6,12 +6,25 @@ main{
     margin: auto;
     background-color: rgb(255, 255, 255);
     padding-bottom: 30px;
+    font-family: Optima, sans-serif;
 }
+
+*
 #wrapper{
-    width: 90%;
+    width: 50%;
     margin: auto;
     background-color: white;
 }
+
+h1{
+    text-align: center;
+    color: rgb(36, 82, 40);
+}
+
+a{
+    text-decoration: none;
+}
+
 table{
     width: 80%;
     border-collapse: collapse;
@@ -20,7 +33,6 @@ table{
     color: rgb(57, 77, 57);
 }
 caption{
-    font-family: Optima, sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 3px;
@@ -56,4 +68,6 @@ td:nth-child(2), th:nth-child(2){
 }
 footer{
     padding-top: 5px;
+    font-family: Optima, sans-serif;
+    color: darkslategray;
 }
