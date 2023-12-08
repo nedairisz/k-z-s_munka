@@ -7,9 +7,27 @@ main{
     background-color: rgb(255, 255, 255);
     padding-bottom: 30px;
     font-family: Optima, sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "h h"
+    "a n"
+    "f f"
+}
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
+nav{
+    grid-area: n;
+}
+footer{
+    grid-area: f;
 }
 
-*
 #wrapper{
     width: 50%;
     margin: auto;
@@ -47,7 +65,7 @@ th{
     background-color: rgb(179, 202, 192);
 }
 td{
-    text-align: right;
+    text-align: middle;
     padding-right: 5px;
     color: rgb(57, 77, 57);
 }
