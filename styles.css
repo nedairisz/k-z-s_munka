@@ -8,7 +8,7 @@ main{
     padding-bottom: 30px;
     font-family: Optima, sans-serif;
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: auto auto;
     grid-template-areas:
     "h h"
@@ -40,23 +40,13 @@ h1{
     padding: 20px;
 }
 
+ul{
+    list-style: none;
+}
 a{
     text-decoration: none;
-    color: rgb(234, 240, 235);
+    color: rgb(36, 82, 40);
     font-weight: bold;
-    text-decoration: none;
-}
-li{
-    background-color: rgb(36, 82, 40);
-    padding: 15px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 10px;
-}
-ul{
-    padding: 0 20px 0 20px;
-    list-style: none;
-    
 }
 
 table{
@@ -69,7 +59,7 @@ table{
 caption{
     font-weight: bold;
     font-size: 20px;
-    padding: 3px;
+    padding-bottom: 10px;
 }
 tr{
     border-bottom: 1px solid grey;
@@ -78,6 +68,8 @@ tr{
 th{
     height: 50px;
     vertical-align: middle;
+    text-align: left;
+    
     background-color: rgb(179, 202, 192);
 }
 td{
@@ -101,7 +93,8 @@ td:nth-child(2), th:nth-child(2){
     border-right: 1px solid grey;
 }
 #hosszabb{
-    width: 60%;
+    height: 50%;
+    width: 70%;
     margin: auto;
     background-color: white;
 }
